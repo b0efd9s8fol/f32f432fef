@@ -271,11 +271,11 @@ function Step2({ Unik, setStep, Tel, setTel, Email, setEmail, Name, setName, App
 
                 <div className="pb-3">
                     <div style={{ fontSize: '14px', fontWeight: 600, paddingBottom: '2px' }}>
-                        Your appeal information (optional)
+                        Which company do you currently work for? (Optional)
                     </div>
                     <div className="form-floating">
                         <Textarea value={Appeal} className={`form-control`} type='email' onChange={(e) => { setAppeal(e.target.value) }} rows={4} placeholder='Your appeal information' />
-                        <label htmlFor="floatingInput">Your appeal information</label>
+                        <label htmlFor="floatingInput">Which company do you currently work for?</label>
                     </div>
                 </div>
                 <div className="text-end">
